@@ -28,9 +28,21 @@ Usage
 - Use `prompt-keywords/keywords.yml` for programmatic imports.
 - Use vendor files when you need model-specific phrasing or examples.
 
+Releases
+- Releases are created automatically when you push a git tag matching `v*` (e.g., `v0.1.0`).
+- Each release includes compiled JSON/YAML and markdown outputs.
+- See [CHANGELOG.md](CHANGELOG.md) for version history.
+
+How to create a release:
+```bash
+git tag v0.2.0
+git push origin v0.2.0
+```
+
 Contributing
 - Add or update vendor files under `prompt-keywords/` and open a PR.
 - Keep each keyword on its own line and add a short `source:` note when adding new items.
+- Run `python -m scripts.compile_keywords` before committing vendor changes.
 
 License
 - MIT — see `prompt-keywords/LICENSE`.

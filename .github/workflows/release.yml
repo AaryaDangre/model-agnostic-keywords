@@ -1,0 +1,46 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    name: Create release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install PyYAML
+      
+      - name: Compile keywords
+        run: |
+          python -m scripts.compile_keywords
+      
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            prompt-keywords/combined_keywords.json
+            prompt-keywords/combined_keywords.yml
+            prompt-keywords/keywords.md
+          body: |
+            Model-agnostic prompting keywords release
+            
+            **Files included:**
+            - `combined_keywords.json` — all keywords by vendor with metadata
+            - `combined_keywords.yml` — YAML format
+            - `keywords.md` — human-readable categorized list
+            
+            See [CHANGELOG.md](https://github.com/AaryaDangre/model-agnostic-keywords/blob/main/CHANGELOG.md) for details.
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
