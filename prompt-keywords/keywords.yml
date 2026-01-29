@@ -1,0 +1,112 @@
+role_persona:
+  - Act as
+  - Role-play
+  - You are
+  - Assume the perspective of
+  - From an expert perspective
+
+reasoning_chain_of_thought:
+  - Think step by step
+  - Step-by-step
+  - Chain of thought
+  - Explain your reasoning
+  - Show your work
+  - Break it down into steps
+
+instruction_verbs:
+  - Summarize
+  - Explain
+  - Define
+  - Generate
+  - Describe
+  - Discuss
+  - Analyze
+  - Evaluate
+  - Compare
+  - Contrast
+  - List
+  - Enumerate
+  - Outline
+  - Rewrite
+  - Translate
+  - Classify
+
+detail_length_controls:
+  - Concise
+  - Detailed
+  - Brief
+  - Expand
+  - Elaborate
+  - Limit to X words/items
+  - TL;DR
+
+examples_shots:
+  - Use examples
+  - Provide examples
+  - Few-shot
+  - Zero-shot
+
+formatting_output:
+  - Output format
+  - Format as
+  - Output in JSON/YAML/CSV/Table
+  - Use bullet points
+  - Numbered list
+  - Headings
+  - Final answer
+
+style_tone_audience:
+  - Tone: formal/casual/persuasive/neutral
+  - Style: concise/detailed/creative
+  - Audience: beginner/intermediate/expert
+
+quality_verification:
+  - Verify
+  - Double-check
+  - Fact-check
+  - Validate
+  - Provide sources
+  - Cite sources
+  - Evaluation rubric
+  - Acceptance criteria
+
+constraints_safety_scope:
+  - Constraints
+  - Do not include
+  - Avoid
+  - Out of scope
+  - Non-goals
+  - Stop conditions
+  - Safety check
+  - Privacy considerations
+
+testing_implementation:
+  - Show code
+  - Provide pseudocode
+  - Provide implementation
+  - Include tests
+  - Include edge cases
+  - Debug
+  - Refactor
+  - Optimize
+
+process_decomposition:
+  - Break into steps
+  - Identify sub-tasks
+  - Stepwise refinement
+  - Iterative refinement
+  - First draft then improve
+
+reliability_control:
+  - Assumptions
+  - Assumption protocol
+  - Acceptance criteria
+  - Verification checklist
+  - Test plan
+  - Unit tests
+  - Edge cases
+  - Failure modes
+  - Determinism
+  - Reproducibility
+  - Schema validation
+  - Output contract
