@@ -1,3 +1,8 @@
+# Metadata
+# vendor: ChatGPT
+# version: V0
+# source: https://openai.com/chatgpt
+# tags: basics, learning, prompting-structure, zero-shot, few-shot, iterative
 
 ## Fourth Post: Prompting Basics – My Learnings
   1. Model-agnostic prompting keywords (work across most AI models)

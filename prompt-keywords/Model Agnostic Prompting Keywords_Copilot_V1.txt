@@ -1,3 +1,9 @@
+# Metadata
+# vendor: Copilot
+# version: V1
+# source: https://copilot.microsoft.com
+# tags: instruction-verbs, formatting, control, testing
+
 summarize
 explain
 define

@@ -27,10 +27,30 @@ PK_DIR = ROOT / "prompt-keywords"
 PREFIX = "Model Agnostic Prompting Keywords_"
 
 
+def parse_metadata(text: str) -> dict:
+    """Extract metadata from top of file (vendor, version, source, tags)."""
+    metadata = {}
+    for line in text.split('\n')[:10]:  # check first 10 lines
+        if line.startswith('# '):
+            key_val = line[2:].strip()
+            if ':' in key_val:
+                key, val = key_val.split(':', 1)
+                metadata[key.strip()] = val.strip()
+        elif not line.startswith('#'):
+            break
+    return metadata
+
+
 def parse_keywords_from_text(text: str) -> list[str]:
     items = []
+    skip_metadata = True
     for raw in text.splitlines():
         line = raw.strip()
+        # skip metadata header
+        if line.startswith('#'):
+            if not line.startswith('# '):
+                skip_metadata = False
+            continue
         if not line:
             continue
         # remove list markers
@@ -48,7 +68,7 @@ def parse_keywords_from_text(text: str) -> list[str]:
 
 
 def main() -> int:
-    vendor_map = defaultdict(set)
+    vendor_map = defaultdict(dict)
     if not PK_DIR.exists():
         print("prompt-keywords directory not found")
         return 1
@@ -60,14 +80,23 @@ def main() -> int:
             # strip extension
             label = re.sub(r"\.[^.]+$", "", label)
             text = p.read_text(encoding="utf-8")
-            for kw in parse_keywords_from_text(text):
-                vendor_map[label].add(kw)
+            metadata = parse_metadata(text)
+            keywords = parse_keywords_from_text(text)
+            vendor_map[label] = {
+                "metadata": metadata,
+                "keywords": keywords
+            }
 
-    combined = {"vendors": {}, "combined": []}
+    combined = {"vendors": {}, "combined": [], "metadata": {}}
     all_set = set()
-    for vendor, kws in vendor_map.items():
-        sorted_kws = sorted(kws)
-        combined["vendors"][vendor] = sorted_kws
+    
+    for vendor, data in vendor_map.items():
+        kws = data["keywords"]
+        meta = data["metadata"]
+        combined["vendors"][vendor] = {
+            "metadata": meta,
+            "keywords": sorted(kws)
+        }
         all_set.update(kws)
 
     combined["combined"] = sorted(all_set)

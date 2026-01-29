@@ -1,3 +1,9 @@
+# Metadata
+# vendor: Perplexity
+# version: V2
+# source: https://www.perplexity.ai
+# tags: reasoning, analysis, formatting
+
 ## 1. Model-agnostic prompting keywords (work across most AI models)
 ## Role Assignment
 - Act as

@@ -1,3 +1,9 @@
+# Metadata
+# vendor: Grok
+# version: V5
+# source: https://x.com/grok
+# tags: reasoning, thinking, chain-of-thought, factual
+
 ## 1. Model-agnostic prompting keywords (work across most AI models)
 ### Reasoning and Thinking
 - Think step by step

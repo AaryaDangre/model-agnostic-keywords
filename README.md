@@ -1,5 +1,7 @@
 # model-agnostic-keywords
 
+[![CI](https://github.com/AaryaDangre/model-agnostic-keywords/workflows/CI/badge.svg)](https://github.com/AaryaDangre/model-agnostic-keywords/actions)
+
 Consolidated, vendor-labelled prompting keywords and short guidance for building and optimizing prompts across multiple LLMs.
 
 Contents

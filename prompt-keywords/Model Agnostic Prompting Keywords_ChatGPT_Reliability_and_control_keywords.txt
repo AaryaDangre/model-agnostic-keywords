@@ -1,3 +1,9 @@
+# Metadata
+# vendor: ChatGPT
+# version: Reliability_and_control
+# source: https://openai.com/chatgpt
+# tags: reliability, control, testing, verification, edge-cases
+
 9. Reliability + Control Keywords
 
 * Assumptions

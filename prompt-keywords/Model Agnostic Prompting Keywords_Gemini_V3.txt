@@ -1,3 +1,9 @@
+# Metadata
+# vendor: Gemini
+# version: V3
+# source: https://gemini.google.com
+# tags: directives, structure, quality-control, refinement
+
 ## 1. Model-agnostic prompting keywords (work across most AI models)
 ## Core Directives
 

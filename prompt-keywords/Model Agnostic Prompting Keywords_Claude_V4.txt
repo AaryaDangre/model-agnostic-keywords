@@ -1,3 +1,9 @@
+# Metadata
+# vendor: Claude
+# version: V4
+# source: https://claude.ai
+# tags: clarity, examples, reasoning, chain-of-thought, verification
+
 ## 1. Model-agnostic prompting keywords (work across most AI models)
 
 **Clarity and Specificity**
