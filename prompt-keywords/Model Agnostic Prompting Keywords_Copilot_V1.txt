@@ -1,0 +1,90 @@
+summarize
+explain
+define
+compare
+contrast
+list
+enumerate
+outline
+step-by-step
+detailed steps
+brief
+concise
+TL;DR
+expand
+elaborate
+simplify
+ELI5
+use examples
+give examples
+provide use cases
+show code
+provide pseudocode
+provide implementation
+include tests
+include edge cases
+debug
+refactor
+optimize
+prioritize
+rank
+score
+evaluate
+assess
+critique
+pros and cons
+advantages and disadvantages
+trade-offs
+alternatives
+counterarguments
+assume role
+roleplay as
+act as
+from the perspective of
+tone: formal
+tone: informal
+tone: persuasive
+tone: neutral
+audience: beginner
+audience: intermediate
+audience: expert
+format as
+output as JSON
+output as YAML
+output as CSV
+output as table
+use bullet points
+use numbered list
+include headings
+include summary
+include conclusion
+include references
+cite sources
+provide sources
+use LaTeX
+show calculations
+show work
+explain reasoning
+stepwise refinement
+chain of thought
+limit to X words
+limit to X items
+translate to
+localize for
+use metric units
+use imperial units
+estimate
+approximate
+assumptions
+constraints
+requirements
+accept input format
+validate input
+sanitize output
+safety check
+ethical considerations
+privacy considerations
+include examples and counterexamples
+provide a checklist
+give a template
+create a prompt template

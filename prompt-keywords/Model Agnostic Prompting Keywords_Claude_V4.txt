@@ -1,0 +1,67 @@
+## 1. Model-agnostic prompting keywords (work across most AI models)
+
+**Clarity and Specificity**
+- Be clear and specific
+- Provide context
+- Define terms
+- Specify constraints
+- State desired format
+
+**Examples**
+- Provide examples
+- Show desired output
+- Include edge cases
+- Demonstrate format
+
+**Step-by-Step Reasoning**
+- Think step by step
+- Show your work
+- Explain reasoning
+- Break down complex tasks
+
+**Role Assignment**
+- Act as [role]
+- You are [expertise]
+- Assume the perspective of
+
+**Output Format**
+- Format as [type]
+- Structure response as
+- Output in [format]
+- Length: [specification]
+
+**Chain of Thought**
+- Explain your reasoning
+- Work through this systematically
+- Consider alternatives
+
+**Few-Shot Learning**
+- Here are examples
+- Follow this pattern
+- Similar to these cases
+
+**Constraints**
+- Do not include
+- Avoid [specific content]
+- Must include
+- Limit to [parameter]
+
+**Persona/Style**
+- Tone: [formal/casual/technical]
+- Style: [concise/detailed/creative]
+- Audience: [beginner/expert/general]
+
+**Iterative Refinement**
+- First draft then improve
+- Review and revise
+- Check for [criteria]
+
+**Decomposition**
+- Break this into steps
+- Identify sub-tasks
+- Address each component
+
+**Verification**
+- Double-check your answer
+- Verify against [criteria]
+- Ensure accuracy

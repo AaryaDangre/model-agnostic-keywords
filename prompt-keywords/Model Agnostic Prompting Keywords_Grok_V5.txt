@@ -1,0 +1,35 @@
+## 1. Model-agnostic prompting keywords (work across most AI models)
+### Reasoning and Thinking
+- Think step by step
+- Let's think step by step
+- Step-by-step reasoning
+- Chain of thought
+- Reason step by step
+- Explain your reasoning
+- Be thorough and detailed
+- Provide a detailed explanation
+- Consider all aspects
+- Take a deep breath and think carefully
+- Be accurate and precise
+- Double-check your answer
+- Verify your reasoning
+- Break it down into steps
+- First, ... Then, ...
+- Critically evaluate
+- Pros and cons
+
+### Structure and Formatting
+- Use examples to illustrate
+- Final answer:
+- Output in the following format:
+- Structure your response as
+- Respond in JSON format
+- Use bullet points
+- Number your steps
+
+### General Guidance
+- Be concise yet comprehensive
+- Avoid assumptions
+- Base your answer on facts
+- From an expert perspective
+- Act as a professional [role]

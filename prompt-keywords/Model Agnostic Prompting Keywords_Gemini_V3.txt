@@ -1,0 +1,34 @@
+## 1. Model-agnostic prompting keywords (work across most AI models)
+## Core Directives
+
+* **Act as:** [Role/Persona]
+* **Task:** [Primary Action]
+* **Objective:** [Final Goal]
+* **Context:** [Background/Domain]
+* **Constraints:** [Rules/Boundaries]
+
+## Instructions & Logic
+
+* **Step-by-step:** [Sequential Directions]
+* **Think step-by-step:** [Chain-of-Thought]
+* **Reasoning:** [Explain the logic]
+* **Examples:** [Few-shot samples]
+* **Format:** [JSON, Table, Markdown, etc.]
+
+## Refinement Keywords
+
+* **Tone:** [Formal, Casual, Technical]
+* **Persona:** [Expert, Tutor, Consultant]
+* **Style:** [Concise, Detailed, Bulleted]
+* **Audience:** [Beginner, Executive, Peer]
+* **Length:** [Word count or "Under X sentences"]
+
+## Quality Controls
+
+* **Verify:** [Fact-check or validate]
+* **No filler:** [Remove conversational fluff]
+* **Critique:** [Find weaknesses in the draft]
+* **Iterate:** [Refine based on feedback]
+* **Avoid:** [Specific forbidden phrases or topics]
+
+Would you like me to create a reusable system prompt template using these keywords?

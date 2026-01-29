@@ -1,0 +1,53 @@
+## 1. Model-agnostic prompting keywords (work across most AI models)
+## Role Assignment
+- Act as
+- Role-play
+- You are
+
+## Reasoning Process
+- Step-by-step
+- Think step by step
+- Chain of thought
+
+## Analysis Tasks
+- Analyze
+- Evaluate
+- Compare
+- Contrast
+
+## Definition and Explanation
+- Define
+- Explain
+- Elaborate
+- Simplify
+
+## Output Generation
+- Generate
+- Summarize
+- Describe
+- Discuss
+
+## Listing and Structure
+- List
+- Examples
+- Few-shot
+- Zero-shot
+
+## Critical Review
+- Critique
+- Predict
+- Hypothesize
+
+## Formatting Instructions
+- Output format
+- JSON
+- Table
+- Bullet points
+
+## Style Modifiers
+- Concise
+- Detailed
+- Creative
+- Precise
+- Professional
+- Casual

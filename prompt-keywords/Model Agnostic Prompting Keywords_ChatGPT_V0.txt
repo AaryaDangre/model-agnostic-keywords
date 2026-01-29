@@ -1,0 +1,58 @@
+
+## Fourth Post: Prompting Basics – My Learnings
+  1. Model-agnostic prompting keywords (work across most AI models)
+     Role / Persona
+     Task / Instruction
+     Context
+     Objective / Goal
+     Constraints / Rules
+     Examples
+     Output format
+     Tone / Style
+     Step-by-step
+     Explain like I’m a beginner
+  
+  2. Common prompting keywords used in all models
+     Summarize
+     Explain
+     Compare
+     List
+     Generate
+     Rewrite
+     Translate
+     Analyze
+     Classify
+  
+  3. Technical terms commonly used across models
+     Prompt
+     Tokens
+     Context window
+     Completion / Response
+     Temperature
+     Top-p
+     System prompt
+     User prompt
+  
+  4. Prompt structure (simple and effective)
+     Define the role
+     Specify the task
+     Provide context
+     Set constraints
+     Choose output format
+  
+  5. Zero-shot vs Few-shot prompting
+     Zero-shot – No examples provided
+     Few-shot – Examples included to guide output
+  
+  6. Iterative prompting
+     Refining prompts through follow-up instructions
+     Correcting or narrowing responses step by step
+  
+  7. Key limitations to remember
+     Outputs may sound confident but be incorrect
+     Verification is always required
+     Vague prompts produce vague answers
+  
+  8. Key learning
+     Prompt quality directly affects output quality.
+     Prompting is a transferable, model-agnostic skill.

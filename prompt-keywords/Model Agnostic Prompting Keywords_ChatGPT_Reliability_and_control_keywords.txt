@@ -1,0 +1,32 @@
+9. Reliability + Control Keywords
+
+* Assumptions
+* Assumption protocol
+* Non-goals
+* Out of scope
+* Acceptance criteria
+* Verification checklist
+* Test plan
+* Unit tests
+* Integration tests
+* Edge cases
+* Negative tests
+* Stop conditions
+* Failure modes
+* Do-not list
+* Schema validation
+* Output contract
+* Constraints precedence
+* Determinism
+* Reproducibility
+* Evaluation rubric
+* Benchmark set
+* Ablation testing
+* Sensitivity testing
+* Definitions
+* Glossary
+* Interfaces
+* API contract
+* Error handling
+* Examples
+* Counterexamples
